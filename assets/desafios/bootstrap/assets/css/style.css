@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	font-family: 'Roboto', sans-serif;
+	color:#707070;
+}
+
+h3 {
+	font-size:21px;
+}
+
+.direccion {
+	font-size:13px;
+}
+
+.descuento {
+  	font-weight:500;
+  	font-size:20px;
+}

@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{	font-family: 'Roboto', sans-serif;
+	color:#707070;
+}
+
+strong {
+	color:#20BCB0;
+} 
+
+.bg-stack {
+	background:#141B35;
+} 
+
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.sobre-mi {
+	background:#141B35;
+	color:#ffffff;
+	border-radius: 15px;
+}
+
+.sobre-mi p{
+	color:#ffffff;
+}
+
+.sobre-mi h1 {
+	color:#20BCB0;
+}
+
+h1 {
+	text-transform: uppercase; 
+	color:#141B35;	
+}
+
+.verde {
+	color:#20BCB0;	
+}
+
+
+.iconos{
+	font-size: 30px;
+	color:#20BCB0;
+	margin-bottom: 20px;
+}
+
+.btn-verde{
+	background:#20BCB0;
+}
+
+.trabajos {
+	border-top:#f3f3f3 solid 2px;
+}
+

@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+body {
+	font-family: 'Raleway', sans-serif;
+	color: #ffffff;
+}
+
+header { 
+	height: 73px;
+	font-size: 50px;
+	font-weight: 500;
+}
+
+h1,h2 {
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 40px;
+ 	text-transform: uppercase;
+}
+
+a{
+	text-decoration:none;
+	color: #178E00;
+}
+
+.menu {
+	background-color:#000000;
+	line-height: 73px;		
+}
+
+.menu ul {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;	
+}
+
+.menu a {
+	color: #ffffff;
+}
+
+.menu a:hover {
+	color: #178E00;
+	transition-property: color;
+	transition-duration: 0.6s;
+}
+
+.banner {
+	height: 727px;
+	background-image: url("../img/bg-header.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.descripcion {
+	background:#000000;
+	padding: 50px;
+}
+
+.caja-2 {
+	width: 47%;
+	padding: 1%;
+	display: inline-block;
+	vertical-align: middle;	
+}
+
+.caja-2 img {
+	max-width: 399px;	
+}
+
+.centrado {
+	text-align: center;		
+}
+
+.caracteristicas {
+	background:#1E1A13;
+	padding: 75px 50px;	
+}
+
+.caja-3 {
+	width: 30%;
+	padding: 1%;
+	display: inline-block;
+	color:#ffffff;
+	vertical-align: middle;
+}
+
+
+.icono {
+	font-size:40px;
+}
+
+.galeria{
+	text-align: center;
+	padding:75px 50px;	
+	background: #000000;
+}
+
+.foto-1 {
+	background-image:url("../img/iguana-2.jpg");
+	background-size:cover;
+	background-position:center;
+	height:202px;
+
+} 
+
+.foto-2 {
+	background-image:url("../img/iguana-3.jpg");
+	background-size: cover;
+	background-position:center;
+	height:202px;
+} 
+
+.foto-3 {
+	background-image:url("../img/iguana-4.jpg");
+	background-size: cover;
+	background-position:center;
+	height:202px;
+} 
+
+footer {
+	background:#1E1A13; 
+	padding: 20px 0px;
+	text-align: center;
+}
+
+footer p{
+	font-size:24px;
+}
+

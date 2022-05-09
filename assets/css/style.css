@@ -5,6 +5,16 @@
 	color:#707070;
 }
 
+
+a {
+	text-decoration: none;
+	color:#20BCB0;
+}
+
+a:hover {
+	color:#141B35;
+}
+
 strong {
 	color:#20BCB0;
 } 

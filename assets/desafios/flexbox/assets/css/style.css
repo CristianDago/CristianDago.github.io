@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0px;
+	font-family: Roboto;
+	font-weight: 300;
+}
+
+p {
+	margin:0px;
+	font-size:13px;
+}
+
+img {
+	max-width:100%;	
+}
+
+ul{
+	list-style: none;
+	padding: 0px 0px 0px 10px;		
+}
+
+
+h1 {
+	font-size:40px;
+	font-weight: 500;
+	margin:0px;
+	
+}
+
+h2 {
+	font-size:17px;
+	font-weight: 500;
+	margin: 0px;	
+}
+
+.flex-container {
+	display:flex; 
+}
+
+.imagen {
+	
+	margin-bottom: 30px;
+	
+}
+
+button { 
+	background: #b0a0d8;
+	border:0px;
+	padding:10px 35px;
+	color:#ffffff;
+}
+
+button:hover{ 
+	background: #7d6ea2;
+	border:0px;
+	padding:10px 35px;
+	color:#ffffff;
+}
+
+.contacto {
+	width: 30%;
+	flex-direction: column;
+	
+}
+
+.foto {
+	width: 20%;
+	padding: 0px 10px;
+}
+
+.usuario {
+	display: flex;
+	border-bottom:1px solid #e7e7e7;
+	border-right:1px solid #e7e7e7;
+	text-align: left;
+	align-items: center;
+	padding: 0px 20px;
+}
+
+.foto img{
+	border-radius:100px;
+} 
+
+.mensaje {
+	padding:10px;
+	width: 80%;
+}
+
+.mensaje-activo {
+	align-content: center;
+	padding:40px 10px;
+	width: 100%;
+	text-align: center;
+}
+
+
+.texto-activo {
+	
+	color:#d3cecc;
+	
+}
+
+
+.principal {
+	width: 70%;
+	background-color:#f8f8f8; 
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.principal img{	
+	width: 40%;	
+}
+
+
+.texto {
+	text-align: center;
+	padding:0px 150px;
+}
+
+
+.icono {
+	padding:0px 5px;
+}
+
+
+@media (max-width: 768px) {
+ 
+
+.flex-container {
+	flex-direction: column;
+}	
+	
+.usuario {
+	padding: 10px 0px;
+}
+	
+.contacto {
+	width: 100%;	
+}
+	
+.principal {
+	width: 100%;
+	padding: 100px 0px;
+	}
+}
+
+
+
+

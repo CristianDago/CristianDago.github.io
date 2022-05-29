@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Roboto;
+	font-weight: 300;
+	margin:0px;	
+}
+
+
+a{
+	text-decoration:none;
+	
+}
+
+img {
+	width: 100%;
+}
+
+ul{
+	padding-inline-start: 0px;	
+}
+
+li{
+	text-decoration:none;
+	list-style: none;
+
+}
+
+header {
+	grid-area: navbar;
+	padding: 15px 0px;
+	background: #000000;
+	text-align: center;
+	color:#ffffff;
+}
+
+header .logo {
+	width: 200px;
+}
+
+header a{
+	text-decoration:none;
+	color:#ffffff;	
+	transition: 0.3s;	
+}
+
+header a:hover {
+	color:#D8A700;
+}
+
+
+
+header nav ul{
+	display: flex;
+	justify-content: center;	
+}
+
+
+header nav ul li{
+	
+		padding:0px  15px;
+}
+
+
+menu {
+	display:flex; 
+	flex-direction:column;
+		
+}
+
+menu a{
+
+	color:#000000;
+	
+}
+
+
+main{
+	grid-area: main;
+	padding:50px;
+}
+
+
+aside {
+	grid-area:aside;
+	padding:50px;
+}
+
+footer {
+	grid-area:footer;
+	background: #000000;
+	text-align: center;
+	padding-top: 15px;
+	color: #ffffff;
+	font-size:12px;
+}
+
+footer .logo-footer {
+	width:150px;	
+}
+
+.social-media ul{
+	display: flex;
+	justify-content: center;
+	padding-inline-start: 0px;
+	font-size:30px;	
+	
+}
+
+
+.social-media li{
+	
+	padding:0px 10px;	
+	
+}
+
+
+.grid-container{
+	display:grid;
+	grid-template-areas:
+		'navbar navbar navbar navbar navbar navbar'
+		'aside main main main main main'
+		'footer footer footer footer footer footer';
+	gap:10px;
+		
+}
+
+.grid-item {
+	border:1px solid #000000;
+}
+
+.blue {
+	background: blue;
+}
+
+
+strong {
+	color:#D8A700;
+	font-weight:500;
+	
+}
+
+
+.cards{
+display:flex;
+}
+.card {
+display:flex;
+flex-direction: column;
+text-align: center;
+border: solid 1px;
+width: 25%;
+border-radius: 15px;
+margin: 5px;
+padding: 30px 20px;
+}
+
+.precio {
+	color:#D8A700;
+	font-weight: 500;
+}
+
+button {
+	
+	padding: 10px 25px;
+	background:#000000;
+	border:#000000;
+	color:#ffffff;
+	transition: 0.3s;	
+}
+
+
+button:hover{
+	
+	background:#D8A700;
+	border:#D8A700;
+	color:#ffffff;
+}
+	
+
+@media only screen and (max-width: 768px) {
+
+	
+	
+.grid-container{
+	display:grid;
+	grid-template-areas:
+		'navbar navbar navbar navbar navbar navbar'
+		'main main main main main main'
+		'aside aside aside aside aside aside'
+		'footer footer footer footer footer footer';
+	gap:10px;
+		
+}	
+
+	
+.cards{
+display: flex;
+flex-direction: column;
+
+	padding: 0px;
+	
+	align-items: center;
+
+}
+
+	.card {
+		width: 90%;
+		
+	}	
+	
+	main {
+		
+padding: 15px;		
+		
+	}
+	
+}
